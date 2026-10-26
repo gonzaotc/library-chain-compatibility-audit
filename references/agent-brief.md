@@ -11,8 +11,9 @@ Test candidates <C-IDs> for compatibility with <CHAIN>.
   <PASTE ROWS>
 - Candidates:
   <PASTE ROWS>
-- Your harness: `<AUDIT>/harness-<BATCH>/`. Write only there and in `<AUDIT>/findings/`. Logs go in `<AUDIT>/logs/<C-ID>-<mode>.log`.
+- Your harness: `<AUDIT>/harness-<BATCH>/`. Your scratch: `<SCRATCH>/<BATCH>/`. Write only there and in `<AUDIT>/findings/`. Logs go in `<AUDIT>/logs/<C-ID>-<mode>.log`. Do not delete files.
 - Run on the chain fork: `<CMD>`. Run on Ethereum: `<CMD>`. Chain mode is already proven.
+- An RPC error, for example HTTP 429, is not a result. Rerun the test.
 - Chain docs, if you need more: `<AUDIT>/docs/`.
 
 Per candidate:

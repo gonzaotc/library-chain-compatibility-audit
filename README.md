@@ -22,6 +22,6 @@ Example: `/library-chain-compatibility-audit openzeppelin-contracts on Arc, docs
 3. Lists candidate contracts by category.
 4. Reruns existing tests with chain assets (for example, real USDC instead of a mock).
 5. Subagents write and run targeted tests per candidate.
-6. Writes `audit/<chain>/REPORT.md` and replies with the executive summary.
+6. Writes `REPORT.md` to the folder you give, else `audit/<chain>/`, and replies with the executive summary.
 
-It runs without questions. It asks only if it cannot continue, for example when the chain name is missing. It resumes from `audit/<chain>/STATUS.md`.
+It runs without questions. It asks only if it cannot continue, for example when the chain name is missing. It resumes from `STATUS.md` in that folder.
